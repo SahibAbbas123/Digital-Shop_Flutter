@@ -1,16 +1,36 @@
 # Digital_Shop
 
-A new Flutter project.
 
-## Getting Started
+An E-commerce Android app built with **Flutter**, integrating **Firebase Authentication**, **FakeStore API**, and **GetX** for state management.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🔐 Authentication (Firebase)
+- Register screen (email & password)
+- Login screen (email & password)
+- Logout button available in the Navigation Drawer
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🏠 Home Screen
+- Displays product categories from [FakeStore API](https://fakestoreapi.com/)
+- On selecting a category, lists all products in that category
+- Lists all products below the category section
+- Tapping a product opens the **Product Details Page**
+
+### 📱 Bottom Navigation Bar
+- **Home** → Home Screen
+- **Notifications** → Displays “No Notifications” in the center
+
+### 📄 Other Screens
+- **All Products Page** – Displays all available products
+- **Product Details Page** – Shows detailed product information
+- **Cart Page** – Displays cart items fetched from the API
+
+---
+
+## 🧰 Technologies Used
+- **Flutter**
+- **Firebase Authentication**
+- **FakeStore API** – [https://fakestoreapi.com/](https://fakestoreapi.com/)
+- **GetX** – State Management
