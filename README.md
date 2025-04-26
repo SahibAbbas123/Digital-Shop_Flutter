@@ -1,4 +1,4 @@
-# digital_shop
+# Digital_Shop
 
 A new Flutter project.
 
